@@ -71,11 +71,11 @@ public class DrawArea extends JComponent {
  
   // now we create exposed methods
   public void clear() {
-    g2.setPaint(Color.white);
-    // draw white on entire draw area to clear
-    g2.fillRect(0, 0, getSize().width, getSize().height);
-    g2.setPaint(Color.black);
-    repaint();
+	  g2.setPaint(Color.white);
+	    // draw white on entire draw area to clear
+	    g2.fillRect(0, 0, getSize().width, getSize().height);
+	    g2.setPaint(Color.black);
+	    repaint();
   }
  
   public void red() {
@@ -98,5 +98,9 @@ public class DrawArea extends JComponent {
   public void blue() {
     g2.setPaint(Color.blue);
   }
+
+public Graphics2D getG2() {
+	return g2;
+}
  
 }

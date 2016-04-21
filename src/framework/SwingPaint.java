@@ -38,7 +38,7 @@ public class SwingPaint {
  
   public void show() {
     // create main frame
-    JFrame frame = new JFrame("Swing Paint");
+    JFrame frame = new JFrame("Simple Draw");
     Container content = frame.getContentPane();
     // set layout on content pane
     content.setLayout(new BorderLayout());
@@ -64,13 +64,13 @@ public class SwingPaint {
     magentaBtn = new JButton("Magenta");
     magentaBtn.addActionListener(actionListener);
  
-    // add to panel
+    /*// add to panel
     controls.add(greenBtn);
     controls.add(blueBtn);
     controls.add(blackBtn);
     controls.add(redBtn);
     controls.add(magentaBtn);
-    controls.add(clearBtn);
+    controls.add(clearBtn);*/
  
     // add to content pane
     content.add(controls, BorderLayout.NORTH);

@@ -13,21 +13,6 @@ public class MainWindow {
 		// Create and set up the window.
 		frame = new MyFrame();
 		
-//					try {
-//						
-//						Class pluginClass = Class.forName("plugins.FPlugin");
-//						Plugin plugin = (Plugin)pluginClass.newInstance();
-//						System.out.println(plugin.getName());
-//					} catch (ClassNotFoundException e1) {
-//						// TODO Auto-generated catch block
-//						e1.printStackTrace();
-//					} catch (InstantiationException e1) {
-//						// TODO Auto-generated catch block
-//						e1.printStackTrace();
-//					} catch (IllegalAccessException e1) {
-//						// TODO Auto-generated catch block
-//						e1.printStackTrace();
-//					}
 				
 		
 		
